@@ -136,7 +136,7 @@ header {
 }
 .copiarboton{
     
-    background-color: #434343;
+    background-color: #343A40;
     color: #F3F5FC;
     border: 2px solid #000000;
     border-radius: 20px;
@@ -192,8 +192,7 @@ footer{
         height: auto;
     }
     .leertexto{
-        font-size: 15px;
-        
+        font-size: 30px;
     }
 
     .encriptarboton{
@@ -201,7 +200,6 @@ footer{
     }
     .encriptadoroutput{
     width: auto;
-    
     margin-left: 15%;
     }
     .textosalida{
@@ -209,7 +207,6 @@ footer{
     }
 
     #textoOut{
-        color: black;
         height: auto;
         overflow: auto;
         text-align: left;
