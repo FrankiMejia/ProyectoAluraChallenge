@@ -7,20 +7,24 @@ body{
     overflow-y: hidden;
 }
 
-header{
-    padding: 25px 255px 25px 0;
-    overflow: auto;
+header {
+    display: flex;
+    
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-left: 4%;
+    padding-right: 20%;
+    padding-bottom: 1%;
 }
 
-.caja{
-    margin-left: 12%;
-    float: left;
+.caja {
+    padding-top: 1%;
+    margin-left: 8%;
 }
 
-.redes{
-    margin-right: 1%;
-    margin: 0 30px;
-    float: right;
+
+.redes {
+    margin: 5px;
     width: 60px;
     height: 60px;
 }
