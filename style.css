@@ -1,0 +1,216 @@
+body{
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    width: 100%;
+    overflow-y: hidden;
+}
+
+header{
+    padding: 25px 255px 25px 0;
+    overflow: auto;
+}
+
+.caja{
+    margin-left: 12%;
+    float: left;
+}
+
+.redes{
+    margin-right: 1%;
+    margin: 0 30px;
+    float: right;
+    width: 60px;
+    height: 60px;
+}
+
+
+.main-container {
+    display: flex;
+}
+
+.encriptadorinput{
+    width: 55%;
+    height: 546px;
+    margin-left: 5%;
+    margin-right: 2%;
+    padding: 30px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.leertexto{
+    width: 80%;
+    height: 400px;
+    margin-left: 6%;
+    text-align: left;
+    font-size: 25px;
+    background-color:  #F3F5FC;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.leertexto::placeholder{
+    text-align: left;
+    font-size: 30px;
+    color: #0A3871;
+    font-weight: bold;
+}
+.admiracionImg{
+    margin-left: 5%;
+    float: left;
+}
+.admiracionTexto{
+    font-size: 18px;
+}
+
+.encriptarboton{
+    background-color: #343A40;
+    color: #F3F5FC;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    font-size: 100%;
+    padding: 2% 2%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 10px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+
+
+.encriptarboton:hover{
+    background: #757FB2;
+    transform: scale(1.2);  
+}
+
+
+.encriptadoroutput{
+    background-color: #AAB2D5;
+    width: 20%;
+    height: 450px;
+    margin-right: 15%;
+    padding: 3% 2%;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    border: none;
+}   
+
+
+
+.muneco{
+    max-width: 100%;
+    height: auto;
+}
+
+.textosalida{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: #0A3871;
+    font-weight: bold;
+    height: 100%;
+}
+
+#textoOut{
+    overflow: auto;
+    text-align: left;
+    font-size: 30px;
+    height: 400px;
+    overflow-wrap: break-word;
+}
+.copiarboton{
+    
+    background-color: #343A40;
+    color: #F3F5FC;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    font-size: 100%;
+    padding: 2% 2%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
+    width: 30%;
+    margin-left: 35%;
+    transition: 1s all;
+    cursor: pointer;
+}
+.copiarboton:hover{
+    background: #757FB2;
+    transform: scale(1.2);  
+}
+
+footer{
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    background: #8e9eab; 
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  
+    background: linear-gradient(to right, #eef2f3, #8e9eab); 
+    
+}
+
+
+
+
+  
+
+@media screen and (max-width:480px) {
+    body{
+        overflow-y: auto;
+    }
+
+    .caja{
+        width: auto;
+        
+    }
+
+    .redes{
+        display: none;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    .encriptadorinput{
+        width: auto;
+        height: auto;
+    }
+    .leertexto{
+        font-size: 15px;
+    }
+
+    .encriptarboton{
+        width: 40%;
+    }
+    .encriptadoroutput{
+    width: auto;
+    
+    margin-left: 16%;
+    background-color: #343A40;
+    }
+    .textosalida{
+        color: white;
+    }
+
+    #textoOut{
+        color: white;
+        height: auto;
+        overflow: auto;
+        text-align: left;
+        font-size: 30px;
+        height: 450px;
+        overflow-wrap: break-word;
+    }
+    
+    .copiarboton{
+        display: none;
+    }
+    footer{
+        position: static;
+        width: auto;
+    }
+}

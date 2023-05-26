@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Alura</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="prueba4.js"></script>
+</head>
+<body>
+    <header>  
+            <div class="caja">
+                <img src="redesiconos/Vector.png" alt="logo de Alura">         
+            </div>
+            <div>
+                <a href="https://github.com/FrankiMejia">
+                    <img src="/redesiconos/Github_black.png" alt="Red Social GitHub" class="redes">
+                </a>
+                <a href="https://www.linkedin.com/in/00frankmejia00/">
+                    <img src="redesiconos/LinkedIN_black.png" alt="Red Social Linkedin" class="redes">
+                </a>
+                <a href="https://twitter.com/DessFrankmejia">
+                    <img src="/redesiconos/Twitter_black.png" alt="Red Social Twitter" class="redes"> 
+                </a>
+            </div>
+            
+    </header>
+    <main class="main-container">
+            <section class="encriptadorinput">
+                <p><textarea cols="29" rows="10" id="mensaje" class="leertexto" placeholder="Ingresa el texto aquí"></textarea></p>
+                <div>
+                    <img class="admiracionImg" src="vector/Vector.png" alt="!">
+                    <p class="admiracionTexto">Solo letras minúsculas y sin acentos</p>
+                </div>
+                <button type="button" onclick="bloquear(document.getElementById('mensaje').value, 'encriptar')" class="encriptarboton">Encriptar</button>
+                <button type="button" onclick="bloquear(document.getElementById('mensaje').value, 'desencriptar')" class="encriptarboton">Desencriptar</button>     
+            </section>
+      
+        
+            <section class="encriptadoroutput">
+                <div id="hiddenn">
+                    <img src="muñeco/Muñeco.png" alt="imagen de un muñeco" class="muneco">
+                        <h2 class="textosalida" >Ningún mensaje fue encontrado</h2>
+                </div>
+                <div>
+                    <p id="textoOut"></p>
+                   <button type="button" id="botonCopiar" onclick="copiarTexto()" class="copiarboton" style="display: none;">Copiar</button>
+                </div> 
+            </section>
+        
+    </main>
+    <footer>
+            <p>Desarrollador Juan Azucena</p>
+            <p>&copy Codificador Alura 2023</p>
+    </footer>
+    
+</body>
+</html>
