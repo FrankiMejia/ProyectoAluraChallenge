@@ -2,7 +2,7 @@ body{
     background: #2980B9;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    font-family: 'Poppins', sans-serif;
     width: 100%;
     overflow-y: hidden;
 }
@@ -49,14 +49,14 @@ header {
     height: 400px;
     margin-left: 6%;
     text-align: left;
-    font-size: 25px;
+    font-size: 30px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
     border-radius: 10px;
     border: none;
     outline: none;
     background-color: #FFDEE9;
     background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
-    
+
 }
 .leertexto::placeholder{
     text-align: left;
