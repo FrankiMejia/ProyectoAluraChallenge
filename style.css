@@ -82,7 +82,7 @@ header {
     padding: 2% 2%;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 2.1);
     width: 30%;
-    margin-left: 5%;
+    margin-left: 6%;
     margin-top: 10px;
     transition: 1s all;
     cursor: pointer;
@@ -195,8 +195,12 @@ footer{
         font-size: 30px;
     }
 
+    .admiracionTexto{
+        margin-left: 40px;
+    }
+
     .encriptarboton{
-        width: 40%;
+        width: 39%;
     }
     .encriptadoroutput{
     width: auto;
