@@ -4,27 +4,25 @@ body{
     background: linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Poppins', sans-serif;
     width: 100%;
-    overflow-y: hidden;
+    
 }
 
 header {
-    display: flex;
-    
+    display: flex; 
     justify-content: space-between;
     padding-top: 1%;
-    padding-left: 4%;
     padding-right: 20%;
-    padding-bottom: 1%;
+    padding-bottom: 1%; 
 }
 
 .caja {
-    padding-top: 1%;
-    margin-left: 8%;
+    margin-left: 12%;
+    margin-right: 56%;
+    margin-top: 1%;
 }
 
 
 .redes {
-    margin: 5px;
     width: 60px;
     height: 60px;
 }
@@ -157,12 +155,12 @@ header {
 }
 
 footer{
-    position: fixed;
+    position: relative;
     text-align: center;
     bottom: 0;
     width: 100%;
-    padding: 15px;
     font-weight: bold;
+    margin-top: 3%;
 }
 
 
@@ -190,6 +188,7 @@ footer{
     .encriptadorinput{
         width: 86%;
         height: auto;
+        padding: 20px 0px 20px 20px;
     }
     .leertexto{
         font-size: 30px;
@@ -223,7 +222,6 @@ footer{
         display: none;
     }
     footer{
-        position: static;
-        width: auto;
+        padding-bottom: 6%;
     }
 }
